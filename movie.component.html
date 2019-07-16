@@ -1,0 +1,28 @@
+<html>
+    
+      
+    
+    
+        <h1> WElcome</h1>
+        <input type="text"[(ngModel)]='image' value="image">
+        <select [(ngModel)]='topimage'>
+        <option>Food</option>
+        <option>Bed</option>
+        <option>sleep</option>
+        </select>
+        <button (click)='showMovie' >click</button>
+        <img src = './../assets/images/img3.jpg'
+        [style.width.px] = 'imgWidth'
+        [style.height.px] = 'imgHeight'
+        [title] = 'Avengers'
+        >
+
+<!--        <button></button>
+      <img src = './../assets/images/kgf.jpg' alt = 'KGF'
+        [style.width.px] = 'width'
+        [style.height.px] = 'height'
+        [movie_title] = 'KGF'
+         >
+-->
+        Show{{showMovie1}}            
+</html>
